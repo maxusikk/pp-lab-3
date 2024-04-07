@@ -1,7 +1,5 @@
-import geometry.Point;
+import geometry.*;
 import geometry.Circle;
-import geometry.ColoredCircle;
-import geometry.Rectangle;
 
 public class main {
     public static void main(String[] args) {
@@ -24,5 +22,10 @@ public class main {
         Rectangle rectangle = new Rectangle(5.0, 3.0);
         System.out.println("Pole prostokąta: " + rectangle.calculateArea());
         System.out.println("Obwód prostokąta: " + rectangle.calculatePerimeter());
+
+
+        Square square = new Square(5.0);
+        System.out.println("Pole kwadratu: " + square.calculateArea());
+        System.out.println("Obwód kwadratu: " + square.calculatePerimeter());
     }
 }
