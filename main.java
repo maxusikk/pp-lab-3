@@ -5,6 +5,6 @@ public class main {
         point.setX(3.5);
         point.setY(4.5);
 
-        System.out.println("Point coordinates: (" + point.getX() + ", " + point.getY() + ")");
+        System.out.println("Współrzędne: (" + point.getX() + ", " + point.getY() + ")");
     }
 }
