@@ -25,6 +25,7 @@ public class Circle {
         return Math.PI * Math.pow(radius, 2);
     }
 
-    public String calculateArea() {
+    public double calculateArea() {
+        return Math.PI * Math.pow(radius, 2);
     }
 }
